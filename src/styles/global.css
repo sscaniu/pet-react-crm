@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/** To fix hidden scroll appears when some menu (Select, Dialog) is active */
+/* But the body is overlapped by scrollbar */
+/* body {
+   width: 100vw;
+   overflow-x: hidden;
+   padding-right: calc(0 - var(--removed-body-scroll-bar-size)) !important;
+} */

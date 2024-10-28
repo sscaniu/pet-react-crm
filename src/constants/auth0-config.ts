@@ -1,0 +1,7 @@
+export const AUTH0_DOMAIN = process.env.NEXT_PUBLIC_AUTH0_SAVVY_DOMAIN ?? ''
+export const AUTH0_CLIENT_ID = process.env.NEXT_PUBLIC_AUTH0_SAVVY_CLIENT_ID ?? ''
+export const AUTH0_LOGIN_REDIRECT_URI = process.env.NEXT_PUBLIC_AUTH0_SAVVY_REDIRECT_URI ?? ''
+export const AUTH0_REALM = process.env.NEXT_PUBLIC_AUTH_REALM || 'SavvyDevUsers'
+export const AUTH0_USER_SCOPE = 'openid email profile'
+export const AUTH0_LOGIN_RESPONSE_TYPE = 'token'
+export const AUTH0_LOGOUT_URL = process.env.NEXT_PUBLIC_AUTH0_SAVVY_LOGOUT_URL ?? ''
